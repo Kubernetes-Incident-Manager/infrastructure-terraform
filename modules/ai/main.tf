@@ -1,5 +1,5 @@
 resource "azurerm_cognitive_account" "ai" {
-  name                = "incidentfoundry-openai"
+  name                = "incidentfoundry-openai-dev"
   location            = var.location
   resource_group_name = var.resource_group_name
   kind                = "OpenAI"
