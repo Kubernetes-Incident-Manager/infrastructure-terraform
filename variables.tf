@@ -19,4 +19,3 @@ variable "storage_account_name" {}
 variable "vm_admin_username" {}
 variable "vm_admin_password" {}
 variable "appgw_name" {}
-variable "ai_foundry_name" {}

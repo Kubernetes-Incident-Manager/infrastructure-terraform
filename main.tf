@@ -92,6 +92,7 @@ module "ai" {
   source              = "./modules/ai"
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
-  ai_account_name     = var.ai_foundry_name
+  key_vault_id        = module.keyvault.kv_id
+  storage_account_id  = module.storage.storage_id
   tags                = var.tags
 }
