@@ -7,6 +7,7 @@ env:
   ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
   TF_VAR_sql_admin_password: ${{ secrets.SQL_ADMIN_PASSWORD }}
   TF_VAR_vm_admin_password: ${{ secrets.VM_ADMIN_PASSWORD }}
+  TF_VAR_acr_name: ${{ secrets.ACR_NAME }}
 
 on:
   push:
