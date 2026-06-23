@@ -79,6 +79,7 @@ resource "azurerm_application_gateway" "appgw" {
     frontend_ip_configuration_name = "frontend-ip-config"
     frontend_port_name             = "frontend-port"
     protocol                       = "Http"
+    host_name                      = "tracker.suwethskill.shop"
   }
 
   request_routing_rule {
